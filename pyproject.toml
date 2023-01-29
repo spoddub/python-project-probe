@@ -4,7 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["spoddub <spoddub98@gmail.com>"]
 readme = "README.md"
-packages = [{include = "hexlet_code"}]
+packages = [
+  { include = "brain_games" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
